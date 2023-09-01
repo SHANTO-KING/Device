@@ -105,7 +105,7 @@ def makeDev(func, limit):
   except:pass
   for i in range(limit):
     d=func()
-    open('/sdcard/RJ_OK.txt','a').write(d+"\n")
+    open('/sdcard/Device.txt','a').write(d+"\n")
   print(" >> \033[1;92mSaved in Devices.txt \033[0;1m")
 
 #Main Function 
